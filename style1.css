@@ -1,0 +1,105 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #d1212a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Content Styles */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Promo Styles */
+.promo {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.promo p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.back-button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-button a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
